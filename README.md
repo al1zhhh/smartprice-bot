@@ -4,7 +4,7 @@ A Telegram bot that tracks prices on Kazakh marketplaces and notifies users when
 
 ## 📱 Demo
 
-> Add your bot: [@SmartPriceBot](https://t.me/SmartPriceBot)
+> Add your bot: [@SmartPriceBot](https://t.me/KaspiTrackerBot)
 
 ## ✨ Features
 
