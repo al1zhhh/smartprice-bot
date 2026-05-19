@@ -1,0 +1,7 @@
+selenium
+pandas
+matplotlib
+requests
+python-telegram-bot
+python-dotenv
+apscheduler
