@@ -124,9 +124,7 @@ def get_title(update: Update, context: CallbackContext):
         update.message.reply_text("Отменено", reply_markup=main_menu())
         return ConversationHandler.END
 
-    context.user_data["title"] = update.message.text
-    update.message.reply_text("Вставь ссылку на товар:")
-    return URL
+
     context.user_data["title"] = update.message.text
     update.message.reply_text("Вставь ссылку на товар:")
     return URL
@@ -141,9 +139,7 @@ def get_url(update: Update, context: CallbackContext):
     context.user_data["url"] = update.message.text
     update.message.reply_text("Введи целевую цену в тенге (например: 350000):")
     return TARGET_PRICE
-    context.user_data["url"] = update.message.text
-    update.message.reply_text("Введи целевую цену в тенге (например: 350000):")
-    return TARGET_PRICE
+
 
 
 # Шаг 5 — целевая цена и сохранение
